@@ -2,7 +2,6 @@ package Mate_01_Java_Basics.Arrays;
 
 public class EmptyArray {
     public static String[] createEmptyArray() {
-        String[] array = new String[0];
-        return array;
+        return new String[0];
     }
 }

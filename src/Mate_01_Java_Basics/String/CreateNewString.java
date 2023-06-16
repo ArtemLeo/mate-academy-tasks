@@ -5,7 +5,6 @@ public class CreateNewString {
         char[] chars = input.toCharArray();
         StringBuilder stringBuilder = new StringBuilder();
         stringBuilder.append(chars[1]).append(chars[3]);
-        String s = stringBuilder.toString();
-        return s;
+        return stringBuilder.toString();
     }
 }
